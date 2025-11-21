@@ -73,3 +73,35 @@ if(time <=15 ){
 }if(time < 60 && time >= 45){
     console.log('fourth decade')
 }
+
+let day = 22
+if(day <= 10){
+    console.log('first decade')
+} if(day > 10 && day <= 20){
+    console.log('second decade')
+} if( day > 20 && day <= 31){
+    console.log('third decade')
+}
+
+let plan = 'Third'
+switch(plan){
+    case 'First':
+        console.log('Monday')
+        break
+    case 'Second':
+        console.log('Tuesday')
+        break
+    case 'Third':
+        console.log('Wednesday')
+        break
+    case 'Fourth':
+        console.log('Thursday')
+        break
+    case 'Fiftieth':
+        console.log('Friday')
+        break
+}
+
+let x1 = 1
+x1 = x1 || 'default'
+console.log(x1);
