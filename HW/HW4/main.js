@@ -142,7 +142,3 @@
 //
 // console.log(swap(arr , 1 ,3));
 
-function exchange(sumUah, currencyValue, ExchangeCurrency){
-
-}
-exchange(10000, 40, 2)
