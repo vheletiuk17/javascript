@@ -41,6 +41,6 @@
 //
 // window.onload = () => {
 //     count += 1
-//     counter.innerText =  count;
+//     counter.innerText = count;
 //     localStorage.setItem('count', count);
 // }
