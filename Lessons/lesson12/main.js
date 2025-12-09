@@ -1,1 +1,1 @@
-let a = 6
+let a = 'jjjkn'
